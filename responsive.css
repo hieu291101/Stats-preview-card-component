@@ -216,12 +216,12 @@
     }
 
     .banner__img {
-        flex: 1;
+        width:50%;
         max-width: 100%;
     }
 
     .banner__body {
-        flex: 1;
+        width: 50%;
     }
 
     .list {
