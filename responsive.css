@@ -162,7 +162,7 @@
     }
 
     .banner__body{
-        align-items: flex-start;
+        align-items: center;
     }
 
     .banner__img {
@@ -173,7 +173,8 @@
     .desktop {
         display: block;
         width: 100%;
-        object-fit:cover;
+        height: 100%;
+        object-fit: cover;
     }
 
     .banner__heading{
@@ -233,6 +234,18 @@
     .item{
         margin-right: 4em;
     }
+
+    .companies__content {
+        font-family: 'Lexend Deca';
+        
+    }
+    .templates__content {
+        font-family: 'Lexend Deca';
+        
+    }
+    .queries__content {
+        font-family: 'Lexend Deca';  
+    }   
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
