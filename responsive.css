@@ -1,0 +1,242 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px){
+    .container {
+        max-width: 375px;
+    }
+
+    .style__heading{
+        font-size: 2.5rem;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16rem;
+    }
+
+    .banner__block {
+        max-width: 90%;
+        border-radius: 2rem;
+        margin-top: 8rem;
+    }
+
+    .banner__img .mobile{
+        display: block;
+        max-width: 100%;
+    }
+
+    .banner__body{
+        padding: 4rem;
+    }
+
+    .banner__body * {
+        text-align: center;
+    }
+
+    .banner__heading{
+        font-size: 2.5rem;
+        margin: 1rem 0;
+    }
+
+    .banner__content {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin: 1rem 0;
+    }
+    
+    .item{
+        margin-top: 3rem;
+    }
+
+    .companies__content {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: .5rem;
+        
+    }
+    .templates__content {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: .5rem;
+        
+    }
+    .queries__content {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: .5rem;   
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px){
+    .container {
+        max-width: 375px;
+    }
+
+    .style__heading{
+        font-size: 2.5rem;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16rem;
+    }
+
+    .banner__block {
+        max-width: 90%;
+        border-radius: 2rem;
+        margin-top: 8rem;
+    }
+
+    .banner__img .mobile{
+        display: block;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .banner__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 3em;
+    }
+
+    .banner__body * {
+        text-align: center;
+    }
+
+    .banner__heading{
+        font-size: 2.5rem;
+        margin: 1em 0;
+    }
+
+    .banner__content {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin: 1rem 0;
+    }
+    
+    .item{
+        margin-top: 3rem;
+    }
+
+    .companies__content {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: .5rem;
+        
+    }
+    .templates__content {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: .5rem;
+        
+    }
+    .queries__content {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: .5rem;   
+    }   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px){
+    .container {
+        max-width: 90%;
+    }
+
+    html {
+        font-size: 70%;
+    }
+
+    .banner__img .mobile{
+        display: none;
+    }
+
+    .banner__body{
+        align-items: flex-start;
+    }
+
+    .banner__img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .desktop {
+        display: block;
+        width: 100%;
+        object-fit:cover;
+    }
+
+    .banner__heading{
+        max-width: 300px;
+    }
+
+    .banner__content{
+        max-width: 500px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px){
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .banner__block{
+        flex-direction: row-reverse;
+    }
+
+    .banner__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3em;
+    }
+
+    .banner__body * {
+        text-align: left;
+    }
+
+    .banner__body > * {
+        max-width: 400px;
+    }
+
+    .banner__heading {
+        margin-top: 0;
+        font-size: 3rem;
+    }
+
+    .banner__img {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .banner__body {
+        flex: 1;
+    }
+
+    .list {
+        display: flex;
+    }
+
+    .item{
+        margin-right: 4em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px){
+
+}

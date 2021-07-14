@@ -1,0 +1,88 @@
+:root{
+    /* Primary */
+    --bg__color: hsl(233, 47%, 7%); /*main background color*/
+    --card__color: hsl(244, 38%, 16%); /*card color*/
+    --accent__color: hsl(277, 64%, 61%); /*accent color*/
+
+    /* Neutral */
+    --main__heading: white;
+    --main__paragraph: hsla(0, 0%, 100%, 0.75);
+    --stat__heading: hsla(0, 0%, 100%, 0.75);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Inter';
+}
+
+body {
+    font-size: 1.5rem;
+    background: var(--bg__color);
+}
+
+a{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.col-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.desktop{
+    display: none;
+}
+
+.banner__block {
+    background: var(--card__color);
+    overflow: hidden;
+}
+
+.banner__img {
+    background: var(--accent__color);
+}
+
+.banner__img img{
+    filter: contrast(200%);
+    opacity: 0.5;
+}
+
+.style__heading {
+    font-family: 'Inter';
+    font-weight: 700;
+    color: var(--main__heading);
+}
+
+.style__heading span {
+    color: var(--accent__color);
+}
+
+.style__content {
+    color: var(--main__paragraph);
+}
+
+
